@@ -1,0 +1,28 @@
+{
+  "name": "practice-ci-cd",
+  "version": "1.0.0",
+  "description": "this Project is maded for practicing CI/CD Pipline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:html": "htmlhint '**/*.html'",
+    "lint:css": "stylelint 'styles/**/*.css'",
+    "lint": "npm run lint:html && npm run lint:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YounessErrid/Practice-CI-CD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YounessErrid/Practice-CI-CD/issues"
+  },
+  "homepage": "https://github.com/YounessErrid/Practice-CI-CD#readme",
+  "devDependencies": {
+    "htmlhint": "^1.7.1",
+    "stylelint": "^16.24.0",
+    "stylelint-config-standard": "^39.0.0"
+  }
+}
